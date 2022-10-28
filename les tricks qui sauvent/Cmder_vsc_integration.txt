@@ -1,0 +1,21 @@
+Copier ces lignes dans le fichier settings.json de vsc: 
+
+
+Chemin : 
+
+
+C:\Users\fredg\AppData\Roaming\Code\User\settings.json
+
+
+"terminal.integrated.defaultProfile.windows": "Cmder",
+
+"terminal.integrated.profiles.windows": {
+    "Cmder": {
+      "path": "${env:windir}\\System32\\cmd.exe",
+      "args": ["/k", "C:\\cmder\\vendor\\bin\\vscode_init.cmd"]
+    }
+  },
+
+
+Voilà Cmder est maintenant intégrer à VSC. 
+
