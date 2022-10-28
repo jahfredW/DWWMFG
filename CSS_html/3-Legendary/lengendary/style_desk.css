@@ -1,0 +1,135 @@
+main {
+    margin: 0 auto;
+    width: 60vw;
+
+}
+
+img {
+    width: 100%;
+    
+}
+
+.illu {
+    width: 105%;
+    height: 17vw;
+
+}
+
+h1 {
+    position: absolute;
+    transform: (2,8);
+    color: #BFB96A;
+    font-family: 'roboto';
+    font-size: 3vw;
+    z-index: 3;
+    width: 30%;
+    margin-top: 15vw;
+    margin-left: 20vw;
+    letter-spacing: 0.5vw;
+}
+
+body {
+    background-color: #BFB96A;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.logo {
+    position: relative; 
+    /* element parent en relatif, enfant en absolu */
+    width: auto; 
+    height: 21vw;
+    background-size: 100%;
+}
+
+#header-image {
+    position: absolute;
+    opacity: 0.8;
+    z-index: 1;
+    width: 100%;
+    height: 21vw;
+    
+}
+
+#header-logo {
+    margin: auto;
+    position: absolute;
+    margin-left: 15vw;
+    top: 30%; /* positionnement relatif */
+    opacity: 1;
+    z-index: 2; /* superposition */
+    width: 50%;
+    
+}
+
+section {
+    color: #BFB96A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #322D2D;
+    /*border: 1px solid red;*/
+    padding: 3vw 9vw 3vw 9vw;
+    line-height: 2vw;
+}
+
+#intro {
+    align-items: center;
+    text-align: center;
+}
+
+#avenger {
+    background-color: white;
+    color: black;
+    
+}
+
+#star {
+    background-color: #6CBCB3 ;
+    color: black;
+}
+
+#woman {
+    color: white;
+}
+
+.section-title {
+    letter-spacing: 0.2vw; /* espacement entre les lettres */
+    font-weight: 400;
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+}
+
+.section-footer {
+    color: #6CBCB3;
+    font-size: 1vw;
+}
+
+#avenger-title {
+    color: #6CBCB3;
+}
+
+#intro-title {
+    border-top: 2px solid #BFB96A;
+    border-bottom: 2px solid #BFB96A;
+    letter-spacing: 0.2vw; /* espacement entre les lettres */
+    line-height: 4vw;
+}
+
+p {
+  
+    line-height: 1.5vw; /* espacement entre les lignes */
+    margin-bottom: 2.5vw;
+    margin-top: 0;
+    font-size: small;
+}
+
+footer {
+    background-color: black;
+    padding: 2vw 5vw;
+}
+
+#logo-footer {
+    width: 20%;
+}

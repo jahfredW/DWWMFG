@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<!-- main : allow margin with body-->
+    <main>
+        <header>
+            <!-- header contains title  -->
+            <h1>TO DO LIST</h1>
+        </header>
+        <!-- main section, allow an auto margin with main  -->
+        <section id="list" class="is-margin-auto">
+            <!-- nav : menu title with 3 buttons -->
+            <nav class="is-flex-row has-bg-green is-mobile has-text-primary is-mobile-flex is-mobile-font-title" >
+                <div id="test">
+                    <span>MENU</span>
+                </div>
+                <div id="button-container" class="is-mobile-flex is-mobile-font-subtitle is-tablet-flex">
+                        <button>
+                            <i class="fa-solid fa-plus"></i>Ajouter
+                            </button>
+                        <button>
+                            <i class="fa-solid fa-pen"></i>Modifier</button>
+                        <button>
+                            <i class="fa-solid fa-eraser"></i>Supprimer</button>
+                </div>
+            </nav>
+            <!-- div which contains fieldsets -->
+            <div id="fieldset-container" class="has-bg-primary" >
+                <fieldset>
+                    <div >
+                      <input type="checkbox" id="scales" name="" checked>
+                      <label for="scales">Lorem ipsum dolor sit amet consectetur adipisicing elit.</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="" name="">
+                      <label for="horns">Lorem ipsum dolor sit amet consectetur adipisicing elit.</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="" name="">
+                        <label for="horns">Lorem ipsum dolor sit amet consectetur adipisicing elit.</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="" name="">
+                        <label for="horns">Lorem ipsum dolor sit amet consectetur adipisicing elit.</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="" name="">
+                        <label for="horns">Lorem ipsum dolor sit amet consectetur adipisicing elit.</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="" name="">
+                        <label for="horns">Lorem ipsum dolor sit amet consectetur adipisicing elit.</label>
+                      </div>
+                      
+                </fieldset>
+            </div>
+        </section>
+
+        <!-- footer : contains date only  -->
+        <footer class="is-roboto has-text-primary">
+            <h2>2022</h2>
+        </footer>
+    </main>
+    <script src="https://kit.fontawesome.com/ae4cb84010.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
